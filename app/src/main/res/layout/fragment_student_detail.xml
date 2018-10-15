@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"/>
+        <TextView
+            android:id="@+id/tv_name_fragment_student_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample name"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birth Year:"/>
+        <TextView
+            android:id="@+id/tv_birth_year_fragment_student_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample birth year"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"/>
+        <TextView
+            android:id="@+id/tv_address_fragment_student_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample address"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"/>
+        <TextView
+            android:id="@+id/tv_email_fragment_student_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample email"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
